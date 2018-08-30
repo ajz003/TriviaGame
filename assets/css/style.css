@@ -1,3 +1,24 @@
+body {
+    text-align: center;
+}
+
 div {
     margin: 20px;
+}
+
+.choice {
+    border: 5px solid yellow;
+}
+
+#fire {
+    color: red;
+    font-weight: bold;
+    margin: initial;
+    display: inline;
+}
+
+img {
+ 
+    height: 400px;
+    object-fit: cover;
 }
