@@ -12,12 +12,12 @@ $(document).ready(function() {
 	var correctAnswers = 0
 	var wrongAnswers = 0
 	var unanswered = 0;
-    
-    var fireball = 0;
-    for (var i = 0; i < 8; i++) {
-        var d6 = Math.floor((Math.random() * 6) + 1);
-        fireball += d6;
-    }
+
+	var fireball = 0;
+	for (var i = 0; i < 8; i++) {
+		var d6 = Math.floor((Math.random() * 6) + 1);
+		fireball += d6;
+	}
 
 	// ---------- Wall of Questions
 
@@ -126,7 +126,7 @@ $(document).ready(function() {
 		$("#question").html("<h2>Out of Time!</h2>");
 		$("#choices-container").html("<h3>The correct answer was: " + questionArr[onQuestion - 1].choices[questionArr[onQuestion - 1].answer])
 		$("#choices-container").append(questionArr[onQuestion - 1].correctImage + "<div id='image-caption'>" + questionArr[onQuestion - 1].caption + "</div>");
-		console.log(unanswered)
+
 	}
 
 	function correct() {
@@ -164,8 +164,6 @@ $(document).ready(function() {
 
 	function onClick() {
 		$(".choice").on("click", function(e) {
-
-
 
 			if ($(this).attr("value") === questionArr[onQuestion - 1].answer.toString()) {
 
@@ -213,16 +211,15 @@ $(document).ready(function() {
 			$("#start").css("display", "none");
 			$("#question").text(questionArr[onQuestion - 1].question);
 
-			console.log("TEST")
 			for (var i = 0; i < 4; i++) {
 
 				$("#choices-container").append("<div class='choice' value=" + i + ">" + questionArr[onQuestion - 1].choices[i] + "</div>")
 			}
-			console.log("TEST")
+
 			start();
-			console.log("TEST")
+
 			onClick();
-			console.log("TEST")
+
 		});
 
 	}

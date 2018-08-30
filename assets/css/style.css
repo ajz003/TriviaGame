@@ -1,163 +1,157 @@
 body {
-    text-align: center;
+	text-align: center;
 }
 
 #game-body {
-    margin: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 736px;
-    width: 414px;
-    background-color: #f5eee8;
+	margin: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 736px;
+	width: 414px;
+	background-color: #f5eee8;
 
 }
 
 div {
-    margin: 10px;
+	margin: 10px;
 }
 
 .choice {
-    border: 5px solid #af2503;
-    padding: 20px;
-    font-size: 24px;
+	border: 5px solid #af2503;
+	padding: 20px;
+	font-size: 24px;
+	background-color: white;
 }
 
 #fire {
-    color: red;
-    font-weight: bold;
-    margin: initial;
-    display: inline;
+	color: red;
+	font-weight: bold;
+	margin: initial;
+	display: inline;
 }
 
 img {
-    display: block;
-    max-width: 90%;
-    max-height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-   
+	display: block;
+	max-width: 90%;
+	max-height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+
 
 
 }
 
 #title {
-    color: red;
-    background-color: black;
-    width: 100%;
-    margin-left: auto;
-    font-size: 36px;
-    margin-right: auto;
+	color: red;
+	background-color: black;
+	width: 100%;
+	margin-left: auto;
+	font-size: 36px;
+	margin-right: auto;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-    padding: 20px;
-    padding-top: 0px;
+	padding: 20px;
+	padding-top: 0px;
 }
 
 #start {
-    padding: 15px 0px;
-    border: 3px solid #af2503;
-    text-align: center;
-    background-color: white;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 48px;
-    position: relative;
-    top: 200px;
-
+	padding: 15px 0px;
+	border: 3px solid #af2503;
+	text-align: center;
+	background-color: white;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 48px;
+	position: relative;
+	top: 200px;
 }
 
-#start:hover {
-    background-color: lemonchiffon;
-}
+
 
 #logo {
-    position: relative;
-    height: 48px;
-    display: inline-block;
-    top: 10px;
-}
-
-.choice {
-    background-color: white;
-
+	position: relative;
+	height: 48px;
+	display: inline-block;
+	top: 10px;
 }
 
 
 
 h2 {
-    font-size: 24px;
-    margin: 0px;
-    padding: 0px;
+	font-size: 24px;
+	margin: 0px;
+	padding: 0px;
 }
 
 h3 {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 20px;
 }
 
 #restart {
-    padding: 20px;
-    border: 5px solid black;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 100px;
-    font-size: 36px;
+	padding: 20px;
+	border: 5px solid black;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 100px;
+	font-size: 36px;
 }
 
 
 
 #question {
-    font-size: 24px;
-    margin-bottom: 24px;
+	font-size: 24px;
+	margin-bottom: 24px;
 }
 
-#time-remaining{
-    font-size: 18px;
+#time-remaining {
+	font-size: 18px;
 }
 
 
 
 
 @media screen and (min-width: 600px) {
-    #game-body {
+	#game-body {
 
-        margin: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        height: 800px;
-        width: 90%;
-    }
+		margin: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 800px;
+		width: 90%;
+	}
 
-    #start {
-        top: 100px;
-    
-    }
+	#start {
+		top: 100px;
+	}
 
-    img {
-        display: block;
-        max-width: 90%;
-        max-height: 300px;
-        margin-left: auto;
-        margin-right: auto;
-       
-    
-    }
+	img {
+		display: block;
+		max-width: 90%;
+		max-height: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-    #restart:hover {
-        background-color: yellow;
-        font-weight: bold;
-    }
+	#restart:hover {
+		background-color: yellow;
+		font-weight: bold;
+	}
 
-    .choice:hover {
-        background-color: yellow;
-        font-weight: bold;
-    }
+	.choice:hover {
+		background-color: yellow;
+		font-weight: bold;
+	}
 
-  }
+	#start:hover {
+		background-color: lemonchiffon;
+	}
+
+}
