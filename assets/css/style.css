@@ -86,10 +86,7 @@ h1 {
 
 }
 
-.choice:hover {
-    background-color: yellow;
-    font-weight: bold;
-}
+
 
 h2 {
     font-size: 24px;
@@ -114,10 +111,7 @@ h3 {
     font-size: 36px;
 }
 
-#restart:hover {
-    background-color: yellow;
-    font-weight: bold;
-}
+
 
 #question {
     font-size: 24px;
@@ -131,8 +125,9 @@ h3 {
 
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
     #game-body {
+
         margin: 50px;
         margin-left: auto;
         margin-right: auto;
@@ -153,9 +148,16 @@ h3 {
         margin-right: auto;
        
     
-    
     }
 
+    #restart:hover {
+        background-color: yellow;
+        font-weight: bold;
+    }
 
+    .choice:hover {
+        background-color: yellow;
+        font-weight: bold;
+    }
 
   }
